@@ -188,12 +188,12 @@ section{
 
 .image-row img {
   height: 180px;
-  /* filter: grayscale(100%); */
-  transition: .2s;
+  padding-right: 10px;
+  transition: .4s;
 }
 
 .image-row img:hover {
-  filter: grayscale(0%);
+  filter: drop-shadow(0 0 0.75rem #8f8f8f);
 }
 
 .services{
