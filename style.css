@@ -75,12 +75,10 @@ section{
 /*   position: absolute; */
   top: 0;
   left: 0;
-  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   transition: 1s;
-  z-index: 1000000;
   font-size: 18px;  
 }
 
@@ -88,7 +86,7 @@ section{
   text-align: center;
   align-items: center;
   list-style: none;
-  padding: 40px 40px 20px;
+  padding: 40px;
   transition: .7s;
 }
 .nav-bar ul{
@@ -98,7 +96,10 @@ section{
 }
 .nav-bar ul li a{
   color: black;
-  
+}
+
+.nav-bar ul li a:hover{
+  color: #f16767;
 }
 
 .visit-button {
@@ -183,12 +184,13 @@ section{
 }
 
 .image-row {
-  padding: 5% 0 7% 15%;
+  padding: 5% 10% 7% 15%;
 }
 
 .image-row img {
   height: 180px;
   padding-right: 10px;
+  padding-bottom: 10px;
   transition: .4s;
 }
 
